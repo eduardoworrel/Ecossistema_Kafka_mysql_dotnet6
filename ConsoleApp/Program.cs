@@ -47,6 +47,7 @@ namespace ConsoleApp
                         {
                             var cr = consumer.Consume(cts.Token);
                             Save(Newtonsoft.Json.JsonConvert.DeserializeObject<Producao>(cr.Message.Value));
+                            Console.Write("Registro salvo com sucesso!")
                         }
                     }
                     catch (OperationCanceledException)
