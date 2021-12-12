@@ -1,0 +1,1 @@
+# Ecossistema_Kafka_mysql_dotnet6
