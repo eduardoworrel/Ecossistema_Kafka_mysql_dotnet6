@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace DAL
+namespace Infra
 {
     public class MyDbContext : DbContext
     {
@@ -15,7 +15,7 @@ namespace DAL
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseMySql("server=localhost;database=Producao;user=root;password=",
-                a => a.MigrationsAssembly("DAL"));
+                a => a.MigrationsAssembly("Infra"));
         }
     }
 }
