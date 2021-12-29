@@ -4,10 +4,10 @@ services:
     image: mysql:5.7
     container_name: db
     environment:
-      MYSQL_ROOT_PASSWORD: Ms9ikLPoze40TZO7
-      MYSQL_DATABASE: whatsun
-      MYSQL_USER: Ms9ikLPoze40TZO7
-      MYSQL_PASSWORD: Ms9ikLPoze40TZO7
+      MYSQL_ROOT_PASSWORD:
+      MYSQL_DATABASE: db
+      MYSQL_USER: 
+      MYSQL_PASSWORD: 
     ports:
       - "3306:3306"
     volumes:
