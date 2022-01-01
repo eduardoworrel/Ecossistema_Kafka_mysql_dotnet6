@@ -1,8 +1,8 @@
 # Ecossistema Apache Kafka, Mysql e .Net 6
 
-Projeto criado para apoiar a implementação de um serviço de Web Scraping, paralelizando a responsabilidade de persistir os dados
+Projeto criado para paralelizar a responsabilidade de persistir os dados
 
-Seu objetivo é isolar o processo de escrita no banco de dados e a aplicação que faz a varredura e produz esses dados
+Seu objetivo é isolar o processo de escrita no banco de dados
 
 ---
 
